@@ -1,0 +1,22 @@
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yao.dao.RuleDao">
+    <resultMap id="RuleResult" type="com.yao.entity.Rule">
+        <result property="ruleid" column="ruleid"/>
+        <result property="rulename" column="taskid"/>
+        <result property="userid" column="userid"/>
+        <result property="robotid" column="robotid"/>
+        <result property="corpus" column="corpus"/>
+    </resultMap>
+    <select id="getById" parameterType="java.lang.String" resultMap="RuleResult">
+        select * from rule where ruleid = #{id}
+    </select>
+    <insert id="add" parameterType="com.yao.entity.Rule" useGeneratedKeys="true" keyProperty="ruleid">
+        <selectKey keyProperty="ruleid" resultType="String" order="BEFORE">
+            SELECT UUID()
+        </selectKey>
+        insert into rule(ruleid,userid,robotid,rulename,corpus) values
+        (#{ruleid},#{userid},#{robotid},#{rulename},#{corpus})
+    </insert>
+</mapper>

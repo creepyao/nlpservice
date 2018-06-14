@@ -1,19 +1,11 @@
 package com.yao.entity;
 
 public class Rule {
-    private String id;
-    private String robotid;
     private String ruleid;
+    private String robotid;
     private String rulename;
     private String corpus;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
+    private String userid;
 
     public String getRobotid() {
         return robotid;
@@ -45,5 +37,13 @@ public class Rule {
 
     public void setCorpus(String corpus) {
         this.corpus = corpus;
+    }
+
+    public String getUserid() {
+        return userid;
+    }
+
+    public void setUserid(String userid) {
+        this.userid = userid;
     }
 }

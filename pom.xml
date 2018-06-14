@@ -15,6 +15,13 @@
                     <include>**/*.xml</include>
                 </includes>
             </resource>
+            <resource>
+                <directory>src/resouces</directory>
+                <includes>
+                    <include>*.xml</include>
+                    <include>*.properties</include>
+                </includes>
+            </resource>
         </resources>
         <plugins>
             <plugin>
@@ -30,7 +37,10 @@
 
     <properties>
         <cxf.version>2.7.5</cxf.version>
+        <hanlp.version>portable-1.5.2</hanlp.version>
     </properties>
+
+
     <dependencies>
         <dependency>
             <groupId>xerces</groupId>
@@ -104,14 +114,20 @@
             <version>3.2.3.RELEASE</version>
         </dependency>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>3.2.3.RELEASE</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.10</version>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>RELEASE</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version> 3.2.3.RELEASE  </version>
+            <scope>provided</scope>
         </dependency>
         <!--log4j相关jar包 -->
         <dependency>
@@ -153,6 +169,18 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.0.2</version>
+        </dependency>
+        <!-- hanLP jar包-->
+        <dependency>
+            <groupId>com.hankcs</groupId>
+            <artifactId>hanlp</artifactId>
+            <version>${hanlp.version}</version>
+        </dependency>
+        <!-- SVM jar包-->
+        <dependency>
+            <groupId>de.bwaldvogel</groupId>
+            <artifactId>liblinear</artifactId>
+            <version>1.95</version>
         </dependency>
     </dependencies>
 </project>

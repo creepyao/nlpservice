@@ -1,4 +1,4 @@
-package com.yao.service.test;
+package com.yao.service;
 
 
 import org.apache.cxf.endpoint.Client;
@@ -14,7 +14,7 @@ public class HelloTest {
         String wsUrl = "http://127.0.0.1:8080/services/sayHello?wsdl";
         Client client = dcf.createClient(wsUrl);
         try {
-            Object[] result  = client.invoke("sayHello", "yao");//调用webservice
+            Object[] result  = client.invoke("sayHello", "yao test");//调用webservice
             logger.debug((String)result[0]);
             System.out.println(result[0]);
         } catch (Exception e) {
