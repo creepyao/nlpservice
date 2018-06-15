@@ -7,7 +7,7 @@
         <result property="userid" column="userid"/>
         <result property="robotid" column="robotid"/>
         <result property="learnflag" column="learnflag"/>
-        <result property="trainflag" column="tranflag"/>
+        <result property="trainflag" column="trainflag"/>
     </resultMap>
     <select id="getById" parameterType="java.lang.String" resultMap="StoryResult">
         select * from story where id = #{id}
@@ -16,7 +16,15 @@
         <selectKey keyProperty="id" resultType="String" order="BEFORE">
             SELECT UUID()
         </selectKey>
-        insert into story(id,userid,robotid,learnflag,train_flag) values
-        (#{id},#{userid},#{robotid},#{learnflag},#{train_flag})
+        insert into story(id,userid,robotid,learnflag,trainflag) values
+        (#{id},#{userid},#{robotid},#{learnflag},#{trainflag})
     </insert>
+    <select id="getByUserAndRobot"  resultMap="StoryResult">
+        select * from story where userid = #{userid} and robotid = #{robotid}
+    </select>
+    <update id="update" parameterType="com.yao.entity.Story">
+        update story set userid = #{userid},robotid = #{robotid},
+        learnflag = #{learnflag},trainflag = #{trainflag}
+        where id = #{id}
+    </update>
 </mapper>

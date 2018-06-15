@@ -1,8 +1,6 @@
 package com.yao.util;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.LinkOption;
 import java.nio.file.Path;
@@ -48,9 +46,16 @@ public class FileUtil {
             if (!folder.exists() && !folder.isDirectory()) {
                 folder.mkdirs();
             }
+            /**
             FileWriter writer=new FileWriter(filePath);
             writer.write(content);
             writer.close();
+             **/
+            FileOutputStream fos = new FileOutputStream(filePath);
+            OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
+            osw.write(content);
+            osw.flush();
+            osw.close();
         }catch (IOException e) {
             e.printStackTrace();
         }
