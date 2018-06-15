@@ -1,0 +1,22 @@
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yao.dao.StoryDao">
+    <resultMap id="StoryResult" type="com.yao.entity.Story">
+        <result property="id" column="id"/>
+        <result property="userid" column="userid"/>
+        <result property="robotid" column="robotid"/>
+        <result property="learnflag" column="learnflag"/>
+        <result property="trainflag" column="tranflag"/>
+    </resultMap>
+    <select id="getById" parameterType="java.lang.String" resultMap="StoryResult">
+        select * from story where id = #{id}
+    </select>
+    <insert id="add" parameterType="com.yao.entity.Story" useGeneratedKeys="true" keyProperty="id">
+        <selectKey keyProperty="id" resultType="String" order="BEFORE">
+            SELECT UUID()
+        </selectKey>
+        insert into story(id,userid,robotid,learnflag,train_flag) values
+        (#{id},#{userid},#{robotid},#{learnflag},#{train_flag})
+    </insert>
+</mapper>

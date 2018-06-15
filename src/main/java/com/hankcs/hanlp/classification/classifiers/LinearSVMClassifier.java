@@ -105,10 +105,10 @@ public class LinearSVMClassifier extends AbstractClassifier
     {
         Problem problem = new Problem();
         int n = dataSet.size();
-        problem.l = n;
-        problem.n = baseFeatureData.featureCategoryJointCount.length;
-        problem.x = new FeatureNode[n][];
-        problem.y = new double[n];  // 最新版liblinear的y数组是浮点数
+        problem.l = n;//训练样本数
+        problem.n = baseFeatureData.featureCategoryJointCount.length;//特征维数
+        problem.x = new FeatureNode[n][];//特征数据
+        problem.y = new double[n];  // 最新版liblinear的y数组是浮点数 类别
         Iterator<Document> iterator = dataSet.iterator();
         for (int i = 0; i < n; i++)
         {
@@ -186,6 +186,7 @@ public class LinearSVMClassifier extends AbstractClassifier
         logger.finish(",选中特征数:%d / %d = %.2f%%\n", selectedFeatures.size(),
                       featureData.featureCategoryJointCount.length,
                       MathUtility.percentage(selectedFeatures.size(), featureData.featureCategoryJointCount.length));
+        //删除不包含特征词汇的文档样本
         logger.start("缩减训练数据中...");
         int n = dataSet.size();
         dataSet.shrink(idMap);
