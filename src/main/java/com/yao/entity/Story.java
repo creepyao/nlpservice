@@ -10,13 +10,15 @@ public class Story {
     2开始训练
     3训练完毕
      */
-    private int learnflg;
+    private int learnflag;
     /*
     0 1 2
     1朴素贝叶斯
     2 SVM
+    3朴素贝叶斯 + 词向量
+    4 SVM + 词向量
      */
-    private int tranflag;
+    private int trainflag;
 
     public String getId() {
         return id;
@@ -42,19 +44,19 @@ public class Story {
         this.robotid = robotid;
     }
 
-    public int getLearnflg() {
-        return learnflg;
+    public int getLearnflag() {
+        return learnflag;
     }
 
-    public void setLearnflg(int learnflg) {
-        this.learnflg = learnflg;
+    public void setLearnflag(int learnflag) {
+        this.learnflag = learnflag;
     }
 
-    public int getTranflag() {
-        return tranflag;
+    public int getTrainflag() {
+        return trainflag;
     }
 
-    public void setTranflag(int tranflag) {
-        this.tranflag = tranflag;
+    public void setTrainflag(int trainflag) {
+        this.trainflag = trainflag;
     }
 }

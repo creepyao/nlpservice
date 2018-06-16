@@ -161,6 +161,7 @@ public class LinearSVMClassifier extends AbstractClassifier
     protected DfFeatureData selectFeatures(IDataSet dataSet)
     {
         ChiSquareFeatureExtractor chiSquareFeatureExtractor = new ChiSquareFeatureExtractor();
+        chiSquareFeatureExtractor.setChisquareCriticalValue(1.01);
 
         //FeatureStats对象包含文档中所有特征及其统计信息
         DfFeatureData featureData = new DfFeatureData(dataSet); //执行统计

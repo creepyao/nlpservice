@@ -19,4 +19,7 @@
         insert into rule(ruleid,userid,robotid,rulename,corpus) values
         (#{ruleid},#{userid},#{robotid},#{rulename},#{corpus})
     </insert>
+    <select id="getByUserAndRobot"  resultMap="RuleResult">
+        select * from rule where userid = #{userid} and robotid = #{robotid}
+    </select>
 </mapper>

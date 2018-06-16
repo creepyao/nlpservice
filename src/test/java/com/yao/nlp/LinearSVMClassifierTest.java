@@ -11,7 +11,7 @@ import static com.hankcs.hanlp.utility.Predefine.logger;
 
 public class LinearSVMClassifierTest extends TestCase
 {
-    public static final String CORPUS_FOLDER = "data/搜狗文本分类语料库迷你版";
+    public static final String CORPUS_FOLDER = "data/测试数据集1";
     /**
      * 模型保存路径
      */
@@ -20,8 +20,8 @@ public class LinearSVMClassifierTest extends TestCase
     public static void main(String[] args) throws IOException
     {
         IClassifier classifier = new LinearSVMClassifier(trainOrLoadModel());
-        predict(classifier, "如果真想用食物解压,建议可以食用燕麦");
-        predict(classifier, "美国财政部将就其主要贸易伙伴的外汇政策发布半年度报告");
+        predict(classifier, "太平洋汽车网下设汽车报价,汽车评测以及新闻");
+        predict(classifier, "苏宁易购购买手机,正品行货,超低价格,618元手机券整点开抢");
     }
 
     private static void predict(IClassifier classifier, String text)
