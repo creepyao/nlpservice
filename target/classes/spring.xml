@@ -17,32 +17,19 @@
     <import resource="classpath*:META-INF/cxf/cxf-extension-soap.xml" />
     <import resource="classpath*:META-INF/cxf/cxf-servlet.xml" />
 
-    <!--class属性值要跟项目中实现类的包路径完全一致-->
+    <!--CXF WebService 配置-->
     <bean id="helloImpl" class="com.yao.service.Impl.HelloWorldImpl"/>
     <jaxws:endpoint id="helloWorld" implementor="#helloImpl" address="/sayHello" />
+    <bean id="nlpClassifierImpl" class="com.yao.service.Impl.NLPClassifierImpl"/>
+    <jaxws:endpoint id="nlpClassifier" implementor="#nlpClassifierImpl" address="/nlpClassifier" />
 
-    <!-- 加载数据库连接信息属性文件 -->
-    <context:property-placeholder location="classpath:db.properties" />
-    <!-- 启用注解机制，并自动扫描 -->
-    <context:component-scan base-package="com.yao" />
-
-    <!-- 数据源配置 -->
-    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="url" value="${db.url}"></property>
-        <property name="username" value="${db.username}"></property>
-        <property name="password" value="${db.password}"></property>
+    <bean id="prop" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <!-- 这里是PropertiesFactoryBean类，它也有个locations属性，也是接收一个数组，跟上面一样 -->
+        <property name="locations">
+            <list>
+                <value>classpath:config.properties</value>
+            </list>
+        </property>
     </bean>
 
-    <!-- SQLSessionFactory配置，此配置将自动扫描指定路径下的sqlmap xml文件 -->
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource"></property>
-        <property name="mapperLocations" value="classpath:/com/yao/sqlmap/*.xml"></property>
-    </bean>
-
-    <!-- mybatis-spring 自动实现dao实现类的编写 -->
-    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="MavenDemo.springAndMybatis" />
-        <property name="annotationClass" value="org.springframework.stereotype.Repository" />
-        <!--         <property name="sqlSessionFactoryBeanName" ref="sqlSessionFactory" /> -->
-    </bean>
 </beans>
