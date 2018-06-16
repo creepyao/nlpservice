@@ -72,6 +72,9 @@
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.3.RELEASE" />
+<<<<<<< HEAD
+>>>>>>> parent of a2e64cf... nlp+service
+=======
 >>>>>>> parent of a2e64cf... nlp+service
         </element>
       </element>

@@ -21,7 +21,11 @@
     </facet>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
+=======
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+>>>>>>> parent of a2e64cf... nlp+service
 =======
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
 >>>>>>> parent of a2e64cf... nlp+service
@@ -32,6 +36,11 @@
       <sourceFolder url="file://$MODULE_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/resources" type="java-resource" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+>>>>>>> parent of a2e64cf... nlp+service
 =======
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
