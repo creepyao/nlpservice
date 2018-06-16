@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="217f490f-156f-4fc7-88c6-5ca1b9c48924" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_6.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_0_2.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_3.xml" />
@@ -19,6 +20,20 @@
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/resources/spring.xml" afterPath="$PROJECT_DIR$/src/resources/spring.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" afterPath="$PROJECT_DIR$/target/classes/spring.xml" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yao/dao/StoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yao/entity/Story.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yao/service/INLPClassifyTrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yao/sqlmap/StoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yao/util/CorpusUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yao/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yao/util/CorpusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlpservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nlpservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/classifiers/LinearSVMClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/classifiers/LinearSVMClassifier.java" afterDir="false" />
+>>>>>>> parent of a2e64cf... nlp+service
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,6 +52,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="132">
               <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding />
@@ -50,45 +66,105 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+            <state relative-caret-position="753">
+              <caret line="188" column="21" selection-start-line="188" selection-start-column="21" selection-end-line="188" selection-end-column="21" />
+>>>>>>> parent of a2e64cf... nlp+service
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="Story.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/entity/Story.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+              <folding>
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+              </folding>
+>>>>>>> parent of a2e64cf... nlp+service
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="logback.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/logback.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="CorpusUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/util/CorpusUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> parent of a2e64cf... nlp+service
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitattributes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+>>>>>>> parent of a2e64cf... nlp+service
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/spring.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="32" column="45" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="8" />
+=======
+      <file leaf-file-name="CorpusTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/util/CorpusTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+>>>>>>> parent of a2e64cf... nlp+service
               <folding>
                 <element signature="e#1435#1446#0" expanded="true" />
                 <element signature="e#1499#1515#0" expanded="true" />
@@ -97,26 +173,43 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/classes/spring.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="705">
               <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding />
+=======
+      <file leaf-file-name="INLPClassifyTrain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/service/INLPClassifyTrain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+>>>>>>> parent of a2e64cf... nlp+service
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding />
+=======
+      <file leaf-file-name="HelloTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/service/HelloTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="55" />
+>>>>>>> parent of a2e64cf... nlp+service
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/classes/db.properties">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,6 +226,34 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/util/FileUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-436">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> parent of a2e64cf... nlp+service
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoryMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/sqlmap/StoryMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoryDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/dao/StoryDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -150,6 +271,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dr</find>
+<<<<<<< HEAD
+=======
+      <find>mybatis</find>
+>>>>>>> parent of a2e64cf... nlp+service
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,13 +295,39 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yao/service/IHelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yao/service/Impl/HelloWorldImpl.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/target/classes/spring.xml" />
+        <option value="$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/dao/RuleDao.java" />
+>>>>>>> parent of a2e64cf... nlp+service
         <option value="$PROJECT_DIR$/src/main/java/com/yao/service/test/HelloTest.java" />
         <option value="$PROJECT_DIR$/src/resources/logback.properties" />
         <option value="$PROJECT_DIR$/src/resources/db.properties" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/resources/spring.xml" />
         <option value="$PROJECT_DIR$/target/classes/spring.xml" />
         <option value="$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml" />
+=======
+        <option value="$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/entity/Rule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/sqlmap/RuleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/dao/DaoTest.java" />
+        <option value="$PROJECT_DIR$/src/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/util/BaseJunit4Test.java" />
+        <option value="$PROJECT_DIR$/src/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yao/service/HelloTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yao/nlp/LinearSVMClassifierTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/classifiers/LinearSVMClassifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/dao/StoryDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/util/CorpusUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yao/util/CorpusTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/entity/Story.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/sqlmap/StoryMapper.xml" />
+>>>>>>> parent of a2e64cf... nlp+service
       </list>
     </option>
   </component>
@@ -219,7 +370,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+>>>>>>> parent of a2e64cf... nlp+service
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,31 +386,54 @@
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="out" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
               <item name="nlpservice_war_exploded" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
@@ -262,6 +441,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
@@ -270,34 +454,116 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yao" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="target" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of a2e64cf... nlp+service
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="AndroidView" />
+=======
+>>>>>>> parent of a2e64cf... nlp+service
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -308,7 +574,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
+<<<<<<< HEAD
     <property name="project.structure.side.proportion" value="0.2" />
+=======
+    <property name="project.structure.side.proportion" value="0.20220588" />
+>>>>>>> parent of a2e64cf... nlp+service
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -328,7 +598,22 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Tomcat Server.local">
+=======
+  <component name="RunManager" selected="JUnit.CorpusTest.test">
+    <configuration name="LinearSVMClassifierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yao.nlp.LinearSVMClassifierTest" />
+      <module name="nlpservice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yao.nlp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+>>>>>>> parent of a2e64cf... nlp+service
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -337,20 +622,85 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
+=======
+      <option name="PACKAGE_NAME" value="com.yao.util" />
+      <option name="MAIN_CLASS_NAME" value="com.yao.util.CorpusTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DaoTest.addrule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nlpservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yao.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yao.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yao.dao.DaoTest" />
+      <option name="METHOD_NAME" value="addrule" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+>>>>>>> parent of a2e64cf... nlp+service
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
     </configuration>
+<<<<<<< HEAD
     <configuration name="HelloTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+=======
+    <configuration name="HelloTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nlpservice" />
+      <extension name="coverage">
+>>>>>>> parent of a2e64cf... nlp+service
         <pattern>
           <option name="PATTERN" value="com.yao.service.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <module name="nlpservice" />
+=======
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yao.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yao.service.HelloTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HelloTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nlpservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yao.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+>>>>>>> parent of a2e64cf... nlp+service
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.yao.service.test" />
@@ -489,6 +839,7 @@
         </option>
       </method>
     </configuration>
+<<<<<<< HEAD
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.local" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.HelloTest.test" />
@@ -496,6 +847,23 @@
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JUnit.HelloTest.test" />
+=======
+    <list>
+      <item itemvalue="Tomcat Server.local" />
+      <item itemvalue="JUnit.HelloTest.test" />
+      <item itemvalue="JUnit.DaoTest.addrule" />
+      <item itemvalue="JUnit.HelloTest.test (1)" />
+      <item itemvalue="Application.LinearSVMClassifierTest" />
+      <item itemvalue="JUnit.CorpusTest.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CorpusTest.test" />
+        <item itemvalue="Application.LinearSVMClassifierTest" />
+        <item itemvalue="JUnit.HelloTest.test (1)" />
+        <item itemvalue="JUnit.DaoTest.addrule" />
+        <item itemvalue="JUnit.HelloTest.test" />
+>>>>>>> parent of a2e64cf... nlp+service
       </list>
     </recent_temporary>
   </component>
@@ -514,6 +882,7 @@
       <updated>1528861865414</updated>
       <workItem from="1528861869571" duration="676000" />
       <workItem from="1528891724636" duration="13773000" />
+<<<<<<< HEAD
     </task>
     <servers />
   </component>
@@ -551,11 +920,70 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="14449000" />
+=======
+      <workItem from="1528939451235" duration="4152000" />
+      <workItem from="1528944793503" duration="231000" />
+      <workItem from="1528945453205" duration="4666000" />
+      <workItem from="1528950259889" duration="22891000" />
+    </task>
+    <task id="LOCAL-00001" summary="rule add">
+      <created>1528940403141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528940403141</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mybatis+nlp">
+      <created>1528962619930</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528962619931</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DaoTest_addrule - 2018.06.14 at 13h 15m 42s.xml">
+      <configuration name="DaoTest.addrule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_addrule - 2018.06.14 at 13h 31m 58s.xml">
+      <configuration name="DaoTest.addrule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloTest_test_(1) - 2018.06.14 at 13h 33m 51s.xml">
+      <configuration name="HelloTest.test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_addrule - 2018.06.14 at 13h 34m 00s.xml">
+      <configuration name="DaoTest.addrule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloTest_test_(1) - 2018.06.14 at 13h 41m 49s.xml">
+      <configuration name="HelloTest.test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorpusTest_test - 2018.06.14 at 20h 04m 15s.xml">
+      <configuration name="CorpusTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorpusTest_test - 2018.06.14 at 20h 05m 13s.xml">
+      <configuration name="CorpusTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorpusTest_test - 2018.06.14 at 20h 08m 15s.xml">
+      <configuration name="CorpusTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorpusTest_test - 2018.06.14 at 20h 09m 35s.xml">
+      <configuration name="CorpusTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorpusTest_test - 2018.06.14 at 20h 10m 21s.xml">
+      <configuration name="CorpusTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46433000" />
+>>>>>>> parent of a2e64cf... nlp+service
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -588,6 +1016,40 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32934782" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.50763357" side_tool="true" weight="0.25107297" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46304348" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32914287" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32992327" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3630435" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32934782" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32934782" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32992327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4923664" visible="true" weight="0.2353952" />
+      <window_info id="Web" order="2" sideWeight="0.50763357" side_tool="true" weight="0.25107297" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" sideWeight="0.50763357" side_tool="true" weight="0.25107297" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+>>>>>>> parent of a2e64cf... nlp+service
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,6 +1058,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rule add" />
+    <MESSAGE value="mybatis+nlp" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis+nlp" />
+  </component>
+>>>>>>> parent of a2e64cf... nlp+service
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -603,6 +1073,7 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/yao/service/test/HelloTest.java</url>
           <line>12</line>
           <properties />
+<<<<<<< HEAD
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -659,21 +1130,311 @@
         <state relative-caret-position="81">
           <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
+=======
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/yao/nlp/LinearSVMClassifierTest.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/yao/nlp/LinearSVMClassifierTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/classifiers/LinearSVMClassifier.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/classifiers/LinearSVMClassifier.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yao/util/CorpusUtil.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yao/util/CorpusUtil.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/logback.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/logback.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/service/Impl/HelloWorldImpl.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/entity/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/yao/sqlmap/RuleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/util/BaseJunit4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/dao/DaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/dao/DaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/service/test/HelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/service/test/serviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/models/LinearSVMModel.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/dao/RuleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+>>>>>>> parent of a2e64cf... nlp+service
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#338#339#0" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />
+=======
+        <state relative-caret-position="437">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2.jar!/com/hankcs/hanlp/classification/classifiers/AbstractClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/models/AbstractModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/features/ChiSquareFeatureExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/corpus/Catalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/collections/FrequencyMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/corpus/BagOfWordsDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/corpus/Lexicon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/corpus/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/corpus/AbstractDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/collection/trie/bintrie/BinTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/corpus/MemoryDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/features/BaseFeatureData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/features/DfFeatureData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+>>>>>>> parent of a2e64cf... nlp+service
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/service/test/HelloTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -729,13 +1490,80 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+    <entry file="jar://$MAVEN_REPOSITORY$/de/bwaldvogel/liblinear/1.95/liblinear-1.95.jar!/de/bwaldvogel/liblinear/Linear.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="1725" column="24" selection-start-line="1725" selection-start-column="24" selection-end-line="1725" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/features/TfIdfFeatureWeighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/classifiers/LinearSVMClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="134" column="27" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/bwaldvogel/liblinear/1.95/liblinear-1.95.jar!/de/bwaldvogel/liblinear/FeatureNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/nlp/LinearSVMClassifierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2-sources.jar!/com/hankcs/hanlp/classification/classifiers/AbstractClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/sqlmap/RuleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="35" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="188" column="21" selection-start-line="188" selection-start-column="21" selection-end-line="188" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+>>>>>>> parent of a2e64cf... nlp+service
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="420">
           <caret line="32" column="45" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="8" />
+=======
+        <state relative-caret-position="-436">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+>>>>>>> parent of a2e64cf... nlp+service
           <folding>
             <element signature="e#1435#1446#0" expanded="true" />
             <element signature="e#1499#1515#0" expanded="true" />
@@ -743,6 +1571,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/target/classes/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -788,6 +1617,81 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/service/HelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/dao/StoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/util/CorpusUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/util/CorpusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/service/INLPClassifyTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/entity/Story.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/sqlmap/StoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+>>>>>>> parent of a2e64cf... nlp+service
         </state>
       </provider>
     </entry>
@@ -870,7 +1774,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+=======
+          <last-edited>Maven: mysql:mysql-connector-java:5.0.2</last-edited>
+>>>>>>> parent of a2e64cf... nlp+service
           <splitter-proportions>
             <option name="proportions">
               <list>

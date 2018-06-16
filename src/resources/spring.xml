@@ -21,6 +21,7 @@
     <bean id="helloImpl" class="com.yao.service.Impl.HelloWorldImpl"/>
     <jaxws:endpoint id="helloWorld" implementor="#helloImpl" address="/sayHello" />
 
+<<<<<<< HEAD
     <!-- 加载数据库连接信息属性文件 -->
     <context:property-placeholder location="classpath:db.properties" />
     <!-- 启用注解机制，并自动扫描 -->
@@ -32,6 +33,11 @@
         <property name="username" value="${db.username}"></property>
         <property name="password" value="${db.password}"></property>
     </bean>
+=======
+
+
+
+>>>>>>> parent of a2e64cf... nlp+service
 
     <!-- SQLSessionFactory配置，此配置将自动扫描指定路径下的sqlmap xml文件 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">

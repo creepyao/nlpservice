@@ -66,6 +66,13 @@
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.1" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.3" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.6" />
+<<<<<<< HEAD
+=======
+          <element id="library" level="project" name="Maven: junit:junit:4.10" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.3.RELEASE" />
+>>>>>>> parent of a2e64cf... nlp+service
         </element>
       </element>
     </root>
