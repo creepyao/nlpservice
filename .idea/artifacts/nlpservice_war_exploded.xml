@@ -6,9 +6,6 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="nlpservice" />
-          <element id="file-copy" path="$PROJECT_DIR$/src/resources/spring.xml" />
-          <element id="file-copy" path="$PROJECT_DIR$/src/resources/logback.properties" />
-          <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/db.properties" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />

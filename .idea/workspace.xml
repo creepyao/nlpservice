@@ -7,10 +7,147 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="217f490f-156f-4fc7-88c6-5ca1b9c48924" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoAtFirstSight.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoBasicTokenizer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoCRFLexicalAnalyzer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoCRFSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoChineseNameRecognition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoCustomDictionary.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoCustomNature.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoDependencyParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoHMMSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoHighSpeedSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoIndexSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoJapaneseNameRecognition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoKeyword.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoMultithreadingSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoNLPSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoNShortSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoNewWordDiscover.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoNormalization.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoNotionalTokenizer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoNumberAndQuantifierRecognition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoOccurrence.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoOrganizationRecognition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoPerceptronLexicalAnalyzer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoPhraseExtractor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoPinyin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoPinyinToChinese.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoPlaceRecognition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoPosTagging.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoRewriteText.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoSentimentAnalysis.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoStopWord.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoSuggester.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoSummary.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoTextClassification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoTextClassificationFMeasure.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoTokenizerConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoTraditionalChinese2SimplifiedChinese.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoTraditionalChineseSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoTranslatedNameRecognition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoURLRecognition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoUseAhoCorasickDoubleArrayTrieSegment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoWord2Vec.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/demo/DemoWordDistance.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/HanLPTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/algorithm/LongestCommonSubsequenceTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/algorithm/LongestCommonSubstringTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/algorithm/MaxHeapTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/algorithm/ViterbiTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/algorithm/ahocorasick/trie/TrieTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/classification/classifiers/NaiveBayesClassifierTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/AhoCorasick/AhoCorasickDoubleArrayTrieTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/MDAG/MDAGMapTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/MDAG/MDAGSetTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/dartsclone/DartMapTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/trie/DoubleArrayTrieTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/trie/bintrie/BinTrieTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/trie/datrie/IntArrayListTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/trie/datrie/MutableDoubleArrayTrieIntegerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/trie/datrie/Utf8CharacterMappingTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestAdjustCoreDictionary.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestICWB.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestJianFanDictionaryMaker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestMakeCompanyCorpus.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestMakePinYinDictionary.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestMakeTranslateName.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestNRDcitionaryMaker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestNSDictionaryMaker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestNTDcitionaryMaker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestNatureDictionaryMaker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/TestPinyinGuesser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/ZZGenerateNR.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/ZZGenerateNature.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/dependency/CoNll/CoNLLLoaderTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/dictionary/DictionaryMakerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/dictionary/TMDictionaryMakerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/dictionary/item/ItemTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/document/CorpusLoaderTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/document/DocumentTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/document/sentence/SentenceTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/document/sentence/word/WordTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/io/ByteArrayTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/io/IIOAdapterTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/io/IOUtilTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/synonym/SynonymTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/tag/NatureTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dependency/MaxEntDependencyParserTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dictionary/CoreBiGramTableDictionaryTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dictionary/CustomDictionaryTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dictionary/SimplifyNGramDictionary.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dictionary/SuffixDictionaryTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dictionary/other/CharTableTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dictionary/other/CharTypeTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dictionary/other/PartOfSpeechTagDictionaryTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dictionary/stopword/CoreStopWordDictionaryTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/dictionary/ts/TraditionalChineseDictionaryTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/mining/word2vec/VectorsReaderTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/bigram/BigramDependencyModelTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/crf/CRFLexicalAnalyzerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/crf/CRFModelTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/crf/CRFNERecognizerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/crf/CRFPOSTaggerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/crf/CRFSegmenterTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/CWSTrainerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/Config.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/DemoEvaluateCWS.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/DemoTrainCWS.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/DemoTrainNER.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/DemoTrainPOS.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/NERTrainerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/POSTrainerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/PerceptionNERecognizerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/PerceptronLexicalAnalyzerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/PerceptronPOSTaggerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/PerceptronSegmenterTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/PerceptronTaggerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/corpus/ConvertPKU.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/feature/ImmutableFeatureMDatMapTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/model/LinearModelTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/utility/IOUtilityTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/utility/PosTagUtilityTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/utility/UtilityTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/trigram/CharacterBasedGenerativeModelTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/recognition/ns/PlaceRecognitionTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/recognition/nt/OrganizationRecognitionTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/seg/Dijkstra/DijkstraSegmentTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/seg/NShort/NShortSegmentTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/seg/Other/AhoCorasickDoubleArrayTrieSegmentTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/seg/Other/DoubleArrayTrieSegmentTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/seg/SegmentTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/seg/SegmentTestCase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/seg/common/CWSEvaluatorTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/suggest/ISuggesterTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/suggest/scorer/pinyin/PinyinKeyTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/summary/TextRankSentenceTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/utility/SentencesUtilTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hankcs/hanlp/utility/TextUtilityTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/nlpservice_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/nlpservice_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" afterPath="$PROJECT_DIR$/target/classes/db.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" afterPath="$PROJECT_DIR$/target/classes/spring.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yao/service/Impl/NLPClassifierImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yao/service/Impl/NLPClassifierImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yao/service/NLPClassifierTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/yao/service/NLPClassifierTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,18 +163,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/config.properties">
+      <file leaf-file-name="DemoStopWord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoStopWord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -46,28 +173,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NLPClassifierTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/service/NLPClassifierTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/db.properties">
+      <file leaf-file-name="DemoBasicTokenizer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoBasicTokenizer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -76,8 +183,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/index.jsp">
+      <file leaf-file-name="DemoURLRecognition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoURLRecognition.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -86,41 +193,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/db.properties">
+      <file leaf-file-name="ViterbiTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/algorithm/ViterbiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/spring.xml">
+      <file leaf-file-name="DemoPlaceRecognition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoPlaceRecognition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/spring-mybatis.xml">
+      <file leaf-file-name="CWSEvaluatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/seg/common/CWSEvaluatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml">
+      <file leaf-file-name="CoNLLLoaderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/dependency/CoNll/CoNLLLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerceptionNERecognizerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/PerceptionNERecognizerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoHighSpeedSegment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoHighSpeedSegment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DartMapTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/dartsclone/DartMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,6 +276,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dr</find>
+      <find>read</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,11 +300,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yao/service/test/HelloTest.java" />
         <option value="$PROJECT_DIR$/src/resources/logback.properties" />
         <option value="$PROJECT_DIR$/src/resources/db.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/resources/spring.xml" />
         <option value="$PROJECT_DIR$/target/classes/spring.xml" />
         <option value="$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yao/nlp/LinearSVMClassifierTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yao/nlp/BayesClassifierTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/classifiers/NaiveBayesClassifier.java" />
+        <option value="$PROJECT_DIR$/src/resources/hanlp.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yao/service/Impl/NLPClassifierImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yao/service/NLPClassifierTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/dartsclone/DartMapTest.java" />
       </list>
     </option>
   </component>
@@ -209,8 +355,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,11 +368,93 @@
               <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hankcs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlpservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlpservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hankcs" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -246,6 +473,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/resources" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,7 +491,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.local">
+  <component name="RunManager" selected="JUnit.NLPClassifierTest.testPredictBayes">
+    <configuration name="BayesClassifierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yao.nlp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yao.nlp.BayesClassifierTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nlpservice" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -274,19 +525,94 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="HelloTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NLPClassifierTest.testBayes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yao.service.test.*" />
+          <option name="PATTERN" value="com.yao.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="nlpservice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yao.service.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yao.service.test.HelloTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.yao.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yao.service.NLPClassifierTest" />
+      <option name="METHOD_NAME" value="testBayes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NLPClassifierTest.testPredictBayes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yao.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="nlpservice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yao.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yao.service.NLPClassifierTest" />
+      <option name="METHOD_NAME" value="testPredictBayes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NLPClassifierTest.testPredictSVM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yao.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="nlpservice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yao.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yao.service.NLPClassifierTest" />
+      <option name="METHOD_NAME" value="testPredictSVM" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NLPClassifierTest.testTrainSVM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yao.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="nlpservice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yao.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yao.service.NLPClassifierTest" />
+      <option name="METHOD_NAME" value="testTrainSVM" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -420,13 +746,21 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.local" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HelloTest.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NLPClassifierTest.testPredictSVM" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BayesClassifierTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NLPClassifierTest.testBayes" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NLPClassifierTest.testPredictBayes" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.NLPClassifierTest.testTrainSVM" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HelloTest.test" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NLPClassifierTest.testPredictBayes" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NLPClassifierTest.testPredictSVM" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NLPClassifierTest.testTrainSVM" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NLPClassifierTest.testBayes" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BayesClassifierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +781,8 @@
       <workItem from="1528891724636" duration="13773000" />
       <workItem from="1529140762076" duration="980000" />
       <workItem from="1529144338889" duration="176000" />
-      <workItem from="1529144587071" duration="1382000" />
+      <workItem from="1529144587071" duration="4304000" />
+      <workItem from="1529226131454" duration="3839000" />
     </task>
     <task id="LOCAL-00001" summary="MAC">
       <created>1529144817558</created>
@@ -474,43 +809,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloTest_test - 2018.06.13 at 22h 08m 44s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_test - 2018.06.13 at 22h 09m 25s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_test - 2018.06.13 at 22h 12m 35s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_test - 2018.06.13 at 22h 17m 42s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_test - 2018.06.13 at 22h 18m 51s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_test - 2018.06.13 at 22h 36m 46s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_test - 2018.06.13 at 22h 42m 53s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_test - 2018.06.13 at 22h 51m 44s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_test - 2018.06.13 at 22h 52m 27s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HelloTest_test - 2018.06.13 at 22h 52m 57s.xml">
       <configuration name="HelloTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NLPClassifierTest_testBayes - 2018.06.17 at 17h 46m 49s.xml">
+      <configuration name="NLPClassifierTest.testBayes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NLPClassifierTest_testBayes - 2018.06.17 at 17h 52m 44s.xml">
+      <configuration name="NLPClassifierTest.testBayes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NLPClassifierTest_testPredictBayes - 2018.06.17 at 17h 53m 34s.xml">
+      <configuration name="NLPClassifierTest.testPredictBayes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NLPClassifierTest_testPredictBayes - 2018.06.17 at 17h 57m 23s.xml">
+      <configuration name="NLPClassifierTest.testPredictBayes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NLPClassifierTest_testPredictSVM - 2018.06.16 at 18h 53m 44s.xml">
+      <configuration name="NLPClassifierTest.testPredictSVM" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NLPClassifierTest_testPredictSVM - 2018.06.17 at 17h 54m 06s.xml">
+      <configuration name="NLPClassifierTest.testPredictSVM" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NLPClassifierTest_testPredictSVM - 2018.06.17 at 17h 57m 08s.xml">
+      <configuration name="NLPClassifierTest.testPredictSVM" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NLPClassifierTest_testTrainSVM - 2018.06.16 at 18h 52m 59s.xml">
+      <configuration name="NLPClassifierTest.testTrainSVM" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NLPClassifierTest_testTrainSVM - 2018.06.17 at 17h 56m 33s.xml">
+      <configuration name="NLPClassifierTest.testTrainSVM" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16987000" />
+    <option name="totallyTimeSpent" value="23748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3529412" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -522,18 +856,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25107297" sideWeight="0.50763357" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63171357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56777495" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57544756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48209718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2653791" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25107297" sideWeight="0.50763357" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25107297" sideWeight="0.50763357" order="2" side_tool="true" content_ui="tabs" />
@@ -564,208 +898,28 @@
           <line>12</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yao/service/Impl/NLPClassifierImpl.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yao/service/Impl/NLPClassifierImpl.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/logback.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/logback.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/logback.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="68" lean-forward="true" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/logback.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="45" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/logback.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,39 +976,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/logback.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/logback.properties" />
     <entry file="file://$PROJECT_DIR$/target/classes/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/logback.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/logback.properties" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/nlpservice_war_exploded/WEB-INF/classes/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,19 +1032,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,16 +1049,257 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2.jar!/com/hankcs/hanlp/classification/classifiers/AbstractClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <marker date="1529144737065" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1529144737065" expanded="false" signature="167:714" ph="..." />
+            <marker date="1529144737065" expanded="true" signature="860:867" ph="{}" />
+            <marker date="1529144737065" expanded="false" signature="925:936" ph=" { " />
+            <marker date="1529144737065" expanded="false" signature="948:954" ph=" }" />
+            <marker date="1529144737065" expanded="true" signature="1051:1165" ph="{...}" />
+            <marker date="1529144737065" expanded="true" signature="1268:1386" ph="{...}" />
+            <marker date="1529144737065" expanded="true" signature="1468:1609" ph="{...}" />
+            <marker date="1529144737065" expanded="true" signature="1704:2661" ph="{...}" />
+            <marker date="1529144737065" expanded="true" signature="2723:2771" ph="{...}" />
+            <marker date="1529144737065" expanded="true" signature="2831:3378" ph="{...}" />
+            <marker date="1529144737065" expanded="true" signature="3475:4089" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.5.2/hanlp-portable-1.5.2.jar!/com/hankcs/hanlp/classification/classifiers/NaiveBayesClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="134" column="69" lean-forward="false" selection-start-line="134" selection-start-column="69" selection-end-line="134" selection-end-column="69" />
+          <folding>
+            <marker date="1529144737065" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1529144737065" expanded="false" signature="167:817" ph="..." />
+            <marker date="1529144737065" expanded="false" signature="982:993" ph=" { " />
+            <marker date="1529144737065" expanded="false" signature="1022:1028" ph=" }" />
+            <marker date="1529144737065" expanded="false" signature="1063:1074" ph=" { " />
+            <marker date="1529144737065" expanded="false" signature="1102:1108" ph=" }" />
+            <marker date="1529144737065" expanded="false" signature="1157:1168" ph=" { " />
+            <marker date="1529144737065" expanded="false" signature="1186:1192" ph=" }" />
+            <marker date="1529144737065" expanded="true" signature="1234:3570" ph="{...}" />
+            <marker date="1529144737065" expanded="false" signature="3607:3618" ph=" { " />
+            <marker date="1529144737065" expanded="false" signature="3636:3642" ph=" }" />
+            <marker date="1529144737065" expanded="true" signature="3751:4121" ph="{...}" />
+            <marker date="1529144737065" expanded="true" signature="4228:5343" ph="{...}" />
+            <marker date="1529144737065" expanded="true" signature="5408:6686" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/hanlp/seg/CRF/CRFSegment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/HanLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/nlp/LinearSVMClassifierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="62" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/classifiers/AbstractClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="71" column="9" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/recognition/nr/PersonRecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/utility/ByteUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/hanlp.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/nlp/BayesClassifierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="84" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hankcs/hanlp/classification/classifiers/NaiveBayesClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="118" column="31" lean-forward="false" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/service/INLPClassifyTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-api/2.7.5/cxf-api-2.7.5.jar!/org/apache/cxf/service/invoker/AbstractInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <marker date="1528892082277" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1528892082277" expanded="false" signature="154:843" ph="..." />
+            <marker date="1528892082277" expanded="true" signature="1018:1025" ph="{}" />
+            <marker date="1528892082277" expanded="true" signature="1081:2351" ph="{...}" />
+            <marker date="1528892082277" expanded="false" signature="2439:2450" ph=" { " />
+            <marker date="1528892082277" expanded="false" signature="2459:2465" ph=" }" />
+            <marker date="1528892082277" expanded="true" signature="2567:4506" ph="{...}" />
+            <marker date="1528892082277" expanded="true" signature="4637:4945" ph="{...}" />
+            <marker date="1528892082277" expanded="true" signature="5041:5381" ph="{...}" />
+            <marker date="1528892082277" expanded="true" signature="5511:5803" ph="{...}" />
+            <marker date="1528892082277" expanded="true" signature="5890:6542" ph="{...}" />
+            <marker date="1528892082277" expanded="true" signature="6672:6679" ph="{}" />
+            <marker date="1528892082277" expanded="true" signature="6762:7182" ph="{...}" />
+            <marker date="1528892082277" expanded="true" signature="7243:7322" ph="{...}" />
+            <marker date="1528892082277" expanded="true" signature="7408:7697" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yao/service/Impl/NLPClassifierImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yao/service/NLPClassifierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="495">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoStopWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoBasicTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoURLRecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/algorithm/ViterbiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoPlaceRecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/seg/common/CWSEvaluatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/corpus/dependency/CoNll/CoNLLLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/model/perceptron/PerceptionNERecognizerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/demo/DemoHighSpeedSegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hankcs/hanlp/collection/dartsclone/DartMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

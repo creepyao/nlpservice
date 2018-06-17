@@ -4,7 +4,10 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.hankcs.hanlp.classification.classifiers.IClassifier;
 import com.hankcs.hanlp.classification.classifiers.LinearSVMClassifier;
+import com.hankcs.hanlp.classification.classifiers.NaiveBayesClassifier;
 import com.hankcs.hanlp.classification.models.LinearSVMModel;
+import com.hankcs.hanlp.classification.models.NaiveBayesModel;
+import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.yao.dao.RuleDao;
 import com.yao.dao.StoryDao;
 import com.yao.entity.Rule;
@@ -60,6 +63,18 @@ public class NLPClassifierImpl implements INLPClassifier {
         story.setLearnflag(1);//提取语料
         storyDao.update(story);
         CorpusUtil.parse(corpus,corpus_base_folder);
+        if(train_flag == 1){
+            story.setLearnflag(2);//开始训练
+            storyDao.update(story);
+            String model_path = model_base + "/" + rulename + ".ser";
+            IClassifier classifier = new NaiveBayesClassifier();  // 创建分类器
+            classifier.train(corpus_base_folder);
+            NaiveBayesModel model = (NaiveBayesModel) classifier.getModel();
+            IOUtil.saveObjectTo(model, model_path);
+            story.setLearnflag(3);//训练完毕
+            storyDao.update(story);
+        }
+
         if(train_flag == 2){
             story.setLearnflag(2);//开始训练
             storyDao.update(story);
@@ -67,10 +82,11 @@ public class NLPClassifierImpl implements INLPClassifier {
             IClassifier classifier = new LinearSVMClassifier();  // 创建分类器
             classifier.train(corpus_base_folder);
             LinearSVMModel model = (LinearSVMModel) classifier.getModel();
-            saveObjectTo(model, model_path);
+            IOUtil.saveObjectTo(model, model_path);
             story.setLearnflag(3);//训练完毕
             storyDao.update(story);
         }
+
         return rulename + " 训练结束 ";
     }
 
@@ -79,62 +95,24 @@ public class NLPClassifierImpl implements INLPClassifier {
         String result = null;
         Rule rule = ruleDao.getByUserAndRobot(userid, robotid);
         Story story = storyDao.getByUserAndRobot(userid, robotid);
+        //Bayes
+        if(story.getLearnflag()==3 && story.getTrainflag()==1){
+            String model_path = model_base + "/" + rule.getRulename() + ".ser";
+            NaiveBayesModel model = (NaiveBayesModel) IOUtil.readObjectFrom(model_path);
+            IClassifier classifier = new NaiveBayesClassifier(model);
+            Map<String,Double> pre_map = classifier.predict(content);
+            result = JSONArray.toJSONString(pre_map);
+        }
         //普通SVM
         if(story.getLearnflag()==3 && story.getTrainflag()==2){
             String model_path = model_base + "/" + rule.getRulename() + ".ser";
-            LinearSVMModel model = (LinearSVMModel) readObjectFrom(model_path);
+            LinearSVMModel model = (LinearSVMModel) IOUtil.readObjectFrom(model_path);
             IClassifier classifier = new LinearSVMClassifier(model);
             Map<String,Double> pre_map = classifier.predict(content);
             result = JSONArray.toJSONString(pre_map);
         }
         return result;
     }
-
-    /**
-     * 序列化对象
-     *
-     * @param o
-     * @param path
-     * @return
-     */
-    public static boolean saveObjectTo(Object o, String path)
-    {
-        try
-        {
-            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(path));
-            oos.writeObject(o);
-            oos.close();
-        }
-        catch (IOException e)
-        {
-            logger.warning("在保存对象" + o + "到" + path + "时发生异常" + e);
-            return false;
-        }
-
-        return true;
-    }
-
-    /**
-     * 反序列化对象
-     *
-     * @param path
-     * @return
-     */
-    public static Object readObjectFrom(String path)
-    {
-        ObjectInputStream ois = null;
-        try
-        {
-            ois = new ObjectInputStream(new FileInputStream(path));
-            Object o = ois.readObject();
-            ois.close();
-            return o;
-        }
-        catch (Exception e)
-        {
-            logger.warning("在从" + path + "读取对象时发生异常" + e);
-        }
-
-        return null;
-    }
 }
+
+
