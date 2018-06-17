@@ -37,7 +37,6 @@
 
     <properties>
         <cxf.version>2.7.5</cxf.version>
-        <hanlp.version>portable-1.5.2</hanlp.version>
     </properties>
 
 
@@ -169,12 +168,6 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.0.2</version>
-        </dependency>
-        <!-- hanLP jar包-->
-        <dependency>
-            <groupId>com.hankcs</groupId>
-            <artifactId>hanlp</artifactId>
-            <version>${hanlp.version}</version>
         </dependency>
         <!-- SVM jar包-->
         <dependency>

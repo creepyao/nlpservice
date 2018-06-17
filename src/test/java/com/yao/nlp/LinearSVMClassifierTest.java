@@ -11,11 +11,11 @@ import static com.hankcs.hanlp.utility.Predefine.logger;
 
 public class LinearSVMClassifierTest extends TestCase
 {
-    public static final String CORPUS_FOLDER = "data/测试数据集1";
+    public static final String CORPUS_FOLDER = "data/测试训练2";
     /**
      * 模型保存路径
      */
-    public static final String MODEL_PATH = "data/svm-classification-model.ser";
+    public static final String MODEL_PATH = "data/测试训练2.ser";
 
     public static void main(String[] args) throws IOException
     {
