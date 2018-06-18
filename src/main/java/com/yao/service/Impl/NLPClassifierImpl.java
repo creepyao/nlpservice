@@ -2,12 +2,12 @@ package com.yao.service.Impl;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.hankcs.hanlp.classification.classifiers.IClassifier;
-import com.hankcs.hanlp.classification.classifiers.LinearSVMClassifier;
-import com.hankcs.hanlp.classification.classifiers.NaiveBayesClassifier;
+import com.hankcs.hanlp.classification.classifiers.*;
 import com.hankcs.hanlp.classification.models.LinearSVMModel;
 import com.hankcs.hanlp.classification.models.NaiveBayesModel;
 import com.hankcs.hanlp.corpus.io.IOUtil;
+import com.hankcs.hanlp.mining.word2vec.DocVectorModel;
+import com.hankcs.hanlp.mining.word2vec.WordVectorModel;
 import com.yao.dao.RuleDao;
 import com.yao.dao.StoryDao;
 import com.yao.entity.Rule;
@@ -30,10 +30,19 @@ public class NLPClassifierImpl implements INLPClassifier {
     private String corpus_base;
     @Value("#{prop['model_base']}")
     private String model_base;
+    @Value("#{prop['w2v_model']}")
+    private String w2v_model_path;
     @Resource
     StoryDao storyDao;
     @Resource
     RuleDao ruleDao;
+
+    WordVectorModel wordVectorModel = new WordVectorModel( w2v_model_path);
+    DocVectorModel docVectorModel = new DocVectorModel(wordVectorModel);
+
+    public NLPClassifierImpl() throws IOException {
+    }
+
     @Override
     public String train(String userid, String robotid, String rulename,String corpus, int train_flag) throws IOException {
         Story story = storyDao.getByUserAndRobot(userid,robotid);
@@ -63,6 +72,7 @@ public class NLPClassifierImpl implements INLPClassifier {
         story.setLearnflag(1);//提取语料
         storyDao.update(story);
         CorpusUtil.parse(corpus,corpus_base_folder);
+        //Native Bayes
         if(train_flag == 1){
             story.setLearnflag(2);//开始训练
             storyDao.update(story);
@@ -74,12 +84,37 @@ public class NLPClassifierImpl implements INLPClassifier {
             story.setLearnflag(3);//训练完毕
             storyDao.update(story);
         }
-
+        //SVW
         if(train_flag == 2){
             story.setLearnflag(2);//开始训练
             storyDao.update(story);
             String model_path = model_base + "/" + rulename + ".ser";
             IClassifier classifier = new LinearSVMClassifier();  // 创建分类器
+            classifier.train(corpus_base_folder);
+            LinearSVMModel model = (LinearSVMModel) classifier.getModel();
+            IOUtil.saveObjectTo(model, model_path);
+            story.setLearnflag(3);//训练完毕
+            storyDao.update(story);
+        }
+        //W2V + Native Bayes
+        if(train_flag == 3){
+
+            story.setLearnflag(2);//开始训练
+            storyDao.update(story);
+            String model_path = model_base + "/" + rulename + ".ser";
+            IClassifier classifier = new W2VNativeBayesClassifier(docVectorModel);  // 创建分类器
+            classifier.train(corpus_base_folder);
+            NaiveBayesModel model = (NaiveBayesModel) classifier.getModel();
+            IOUtil.saveObjectTo(model, model_path);
+            story.setLearnflag(3);//训练完毕
+            storyDao.update(story);
+        }
+        //W2V + SVM
+        if(train_flag == 4){
+            story.setLearnflag(2);//开始训练
+            storyDao.update(story);
+            String model_path = model_base + "/" + rulename + ".ser";
+            IClassifier classifier = new W2VLinearSVMClassifier(docVectorModel);  // 创建分类器
             classifier.train(corpus_base_folder);
             LinearSVMModel model = (LinearSVMModel) classifier.getModel();
             IOUtil.saveObjectTo(model, model_path);
@@ -108,6 +143,22 @@ public class NLPClassifierImpl implements INLPClassifier {
             String model_path = model_base + "/" + rule.getRulename() + ".ser";
             LinearSVMModel model = (LinearSVMModel) IOUtil.readObjectFrom(model_path);
             IClassifier classifier = new LinearSVMClassifier(model);
+            Map<String,Double> pre_map = classifier.predict(content);
+            result = JSONArray.toJSONString(pre_map);
+        }
+        //W2V + Bayes
+        if(story.getLearnflag()==3 && story.getTrainflag()==3){
+            String model_path = model_base + "/" + rule.getRulename() + ".ser";
+            NaiveBayesModel model = (NaiveBayesModel) IOUtil.readObjectFrom(model_path);
+            IClassifier classifier = new W2VNativeBayesClassifier(model,docVectorModel);
+            Map<String,Double> pre_map = classifier.predict(content);
+            result = JSONArray.toJSONString(pre_map);
+        }
+        //W2V + SVM
+        if(story.getLearnflag()==3 && story.getTrainflag()==4){
+            String model_path = model_base + "/" + rule.getRulename() + ".ser";
+            LinearSVMModel model = (LinearSVMModel) IOUtil.readObjectFrom(model_path);
+            IClassifier classifier = new W2VLinearSVMClassifier(model,docVectorModel);
             Map<String,Double> pre_map = classifier.predict(content);
             result = JSONArray.toJSONString(pre_map);
         }

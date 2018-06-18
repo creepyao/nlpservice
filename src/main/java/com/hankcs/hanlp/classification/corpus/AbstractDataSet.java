@@ -31,6 +31,7 @@ public abstract class AbstractDataSet implements IDataSet
     protected ITokenizer tokenizer;
     protected Catalog catalog;
     protected Lexicon lexicon;
+
     /**
      * 是否属于测试集
      */
@@ -65,8 +66,8 @@ public abstract class AbstractDataSet implements IDataSet
     {
         String[] tokenArray = tokenizer.segment(text);
         return testingDataSet ?
-                new Document(catalog.categoryId, lexicon.wordId, category, tokenArray) :
-                new Document(catalog, lexicon, category, tokenArray);
+                new Document(catalog.categoryId, lexicon.wordId, category, tokenArray, text) :
+                new Document(catalog, lexicon, category, tokenArray,text);
     }
 
     public ITokenizer getTokenizer()
@@ -166,5 +167,18 @@ public abstract class AbstractDataSet implements IDataSet
             }
         }
         return this;
+    }
+
+    public void setCatalog(Catalog catalog) {
+        this.catalog = catalog;
+    }
+
+    public void setLexicon(Lexicon lexicon) {
+        this.lexicon = lexicon;
+    }
+
+
+    public void setTestingDataSet(boolean testingDataSet) {
+        this.testingDataSet = testingDataSet;
     }
 }

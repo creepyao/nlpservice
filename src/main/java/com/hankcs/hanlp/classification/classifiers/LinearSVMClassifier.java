@@ -45,7 +45,7 @@ public class LinearSVMClassifier extends AbstractClassifier
         }
 
         //分词，创建文档
-        Document document = new Document(model.wordIdTrie, model.tokenizer.segment(text));
+        Document document = new Document(model.wordIdTrie, model.tokenizer.segment(text),text);
 
         return predict(document);
     }

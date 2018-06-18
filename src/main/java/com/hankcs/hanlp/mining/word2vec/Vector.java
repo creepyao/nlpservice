@@ -17,7 +17,15 @@ import java.util.Arrays;
  */
 public class Vector
 {
-    float[] elementArray;
+    public float[] elementArray;
+
+    public float[] getElementArray() {
+        return elementArray;
+    }
+
+    public void setElementArray(float[] elementArray) {
+        this.elementArray = elementArray;
+    }
 
     public Vector(float[] elementArray)
     {

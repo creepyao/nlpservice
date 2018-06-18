@@ -128,7 +128,7 @@ public class NaiveBayesClassifier extends AbstractClassifier
         }
 
         //分词，创建文档
-        Document doc = new Document(model.wordIdTrie, model.tokenizer.segment(text));
+        Document doc = new Document(model.wordIdTrie, model.tokenizer.segment(text),text);
 
         return predict(doc);
     }

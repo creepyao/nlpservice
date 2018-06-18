@@ -30,6 +30,7 @@ public class Document extends BagOfWordsDocument
      * 文档所属类目
      */
     public int category;
+    public String content;
 
     /**
      * 一般用在训练集构造文档时
@@ -38,13 +39,14 @@ public class Document extends BagOfWordsDocument
      * @param category
      * @param tokenArray
      */
-    public Document(Catalog catalog, Lexicon lexicon, String category, String[] tokenArray)
+    public Document(Catalog catalog, Lexicon lexicon, String category, String[] tokenArray,String text)
     {
         super();
         assert catalog != null;
         assert lexicon != null;
 //        this.catalog = catalog;
 //        this.lexicon = lexicon;
+        this.content = text;
 
         // 将其转为数组类型，方便处理
         this.category = catalog.addCategory(category);
@@ -60,15 +62,19 @@ public class Document extends BagOfWordsDocument
      * @param wordIdTrie
      * @param tokenArray
      */
-    public Document(ITrie<Integer> wordIdTrie, String[] tokenArray)
+    public Document(ITrie<Integer> wordIdTrie, String[] tokenArray,String text)
     {
         super();
-        for (int i = 0; i < tokenArray.length; i++)
-        {
-            Integer id = wordIdTrie.get(tokenArray[i].toCharArray());
-            if (id == null) continue;
-            tfMap.add(id);
+        this.content = text;
+        if(wordIdTrie!=null){
+            for (int i = 0; i < tokenArray.length; i++)
+            {
+                Integer id = wordIdTrie.get(tokenArray[i].toCharArray());
+                if (id == null) continue;
+                tfMap.add(id);
+            }
         }
+
     }
 
     /**
@@ -78,9 +84,9 @@ public class Document extends BagOfWordsDocument
      * @param category
      * @param tokenArray
      */
-    public Document(Map<String, Integer> categoryId, BinTrie<Integer> wordId, String category, String[] tokenArray)
+    public Document(Map<String, Integer> categoryId, BinTrie<Integer> wordId, String category, String[] tokenArray,String text)
     {
-        this(wordId, tokenArray);
+        this(wordId, tokenArray,text);
         Integer id = categoryId.get(category);
         if (id == null) id = -1;
         this.category = id;
