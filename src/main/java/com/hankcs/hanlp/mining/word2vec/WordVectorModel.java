@@ -27,8 +27,7 @@ public class WordVectorModel extends AbstractVectorModel<String>
      * @param modelFileName 模型路径
      * @throws IOException 加载错误
      */
-    public WordVectorModel(String modelFileName) throws IOException
-    {
+    public WordVectorModel(String modelFileName) throws IOException {
         super(loadVectorMap(modelFileName));
     }
 

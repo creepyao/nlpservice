@@ -30,18 +30,25 @@ public class NLPClassifierImpl implements INLPClassifier {
     private String corpus_base;
     @Value("#{prop['model_base']}")
     private String model_base;
-    @Value("#{prop['w2v_model']}")
-    private String w2v_model_path;
     @Resource
-    StoryDao storyDao;
+    private StoryDao storyDao;
     @Resource
-    RuleDao ruleDao;
+    private RuleDao ruleDao;
+    private WordVectorModel wordVectorModel;
+    private DocVectorModel docVectorModel;
 
-    WordVectorModel wordVectorModel = new WordVectorModel( w2v_model_path);
-    DocVectorModel docVectorModel = new DocVectorModel(wordVectorModel);
-
-    public NLPClassifierImpl() throws IOException {
+    public NLPClassifierImpl(String w2v_model_path) {
+        try {
+            wordVectorModel = new WordVectorModel(w2v_model_path);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        this.docVectorModel = new DocVectorModel(wordVectorModel);
     }
+
+
+
+
 
     @Override
     public String train(String userid, String robotid, String rulename,String corpus, int train_flag) throws IOException {
@@ -98,7 +105,6 @@ public class NLPClassifierImpl implements INLPClassifier {
         }
         //W2V + Native Bayes
         if(train_flag == 3){
-
             story.setLearnflag(2);//开始训练
             storyDao.update(story);
             String model_path = model_base + "/" + rulename + ".ser";
@@ -126,7 +132,7 @@ public class NLPClassifierImpl implements INLPClassifier {
     }
 
     @Override
-    public String predict(String userid, String robotid, String content) {
+    public String predict(String userid, String robotid, String content){
         String result = null;
         Rule rule = ruleDao.getByUserAndRobot(userid, robotid);
         Story story = storyDao.getByUserAndRobot(userid, robotid);
@@ -163,6 +169,59 @@ public class NLPClassifierImpl implements INLPClassifier {
             result = JSONArray.toJSONString(pre_map);
         }
         return result;
+
+
+    }
+
+    public String getCorpus_base() {
+        return corpus_base;
+    }
+
+    public void setCorpus_base(String corpus_base) {
+        this.corpus_base = corpus_base;
+    }
+
+    public String getModel_base() {
+        return model_base;
+    }
+
+    public void setModel_base(String model_base) {
+        this.model_base = model_base;
+    }
+
+    public StoryDao getStoryDao() {
+        return storyDao;
+    }
+
+    public void setStoryDao(StoryDao storyDao) {
+        this.storyDao = storyDao;
+    }
+
+    public RuleDao getRuleDao() {
+        return ruleDao;
+    }
+
+    public void setRuleDao(RuleDao ruleDao) {
+        this.ruleDao = ruleDao;
+    }
+
+    public WordVectorModel getWordVectorModel() {
+        return wordVectorModel;
+    }
+
+    public void setWordVectorModel(WordVectorModel wordVectorModel) {
+        this.wordVectorModel = wordVectorModel;
+    }
+
+    public DocVectorModel getDocVectorModel() {
+        return docVectorModel;
+    }
+
+    public void setDocVectorModel(DocVectorModel docVectorModel) {
+        this.docVectorModel = docVectorModel;
+    }
+
+    public NLPClassifierImpl() {
     }
 }
 
