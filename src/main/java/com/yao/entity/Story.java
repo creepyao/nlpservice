@@ -1,5 +1,7 @@
 package com.yao.entity;
 
+import java.util.Date;
+
 public class Story {
     private String id;
     private String userid;
@@ -19,6 +21,16 @@ public class Story {
     4 SVM + 词向量
      */
     private int trainflag;
+    private Date train_time;
+    private String model_path;
+
+    public Date getTrain_time() {
+        return train_time;
+    }
+
+    public void setTrain_time(Date train_time) {
+        this.train_time = train_time;
+    }
 
     public String getId() {
         return id;
@@ -58,5 +70,13 @@ public class Story {
 
     public void setTrainflag(int trainflag) {
         this.trainflag = trainflag;
+    }
+
+    public String getModel_path() {
+        return model_path;
+    }
+
+    public void setModel_path(String model_path) {
+        this.model_path = model_path;
     }
 }

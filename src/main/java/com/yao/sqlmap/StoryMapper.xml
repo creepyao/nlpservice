@@ -8,6 +8,8 @@
         <result property="robotid" column="robotid"/>
         <result property="learnflag" column="learnflag"/>
         <result property="trainflag" column="trainflag"/>
+        <result property="train_time" column="train_time" />
+        <result property="model_path" column="model_path"/>
     </resultMap>
     <select id="getById" parameterType="java.lang.String" resultMap="StoryResult">
         select * from story where id = #{id}
@@ -16,15 +18,23 @@
         <selectKey keyProperty="id" resultType="String" order="BEFORE">
             SELECT UUID()
         </selectKey>
-        insert into story(id,userid,robotid,learnflag,trainflag) values
-        (#{id},#{userid},#{robotid},#{learnflag},#{trainflag})
+        insert into story(id,userid,robotid,learnflag,trainflag,train_time,model_path) values
+        (#{id},#{userid},#{robotid},#{learnflag},#{trainflag},#{train_time},#{model_path})
     </insert>
     <select id="getByUserAndRobot"  resultMap="StoryResult">
         select * from story where userid = #{userid} and robotid = #{robotid}
     </select>
+    <select id="getByUserAndRobotAndTrainFlag"  resultMap="StoryResult">
+        select * from story where userid = #{userid} and robotid = #{robotid}
+        and trainflag = #{train_flag} and learnflag = 3 order by train_time desc
+    </select>
     <update id="update" parameterType="com.yao.entity.Story">
         update story set userid = #{userid},robotid = #{robotid},
-        learnflag = #{learnflag},trainflag = #{trainflag}
+        learnflag = #{learnflag},trainflag = #{trainflag},train_time=#{train_time},
+        model_path = #{model_path}
         where id = #{id}
     </update>
+    <select id="getByLearnFlag" resultMap="StoryResult">
+        select * from story where learnflag = #{learn_flag}
+    </select>
 </mapper>

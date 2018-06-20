@@ -6,15 +6,14 @@ import com.hankcs.hanlp.classification.features.*;
 import com.hankcs.hanlp.classification.models.AbstractModel;
 import com.hankcs.hanlp.classification.models.LinearSVMModel;
 import com.hankcs.hanlp.classification.tokenizers.ITokenizer;
-import com.hankcs.hanlp.classification.utilities.MathUtility;
+import com.hankcs.hanlp.utility.MathUtility;
 import com.hankcs.hanlp.collection.trie.bintrie.BinTrie;
 import de.bwaldvogel.liblinear.*;
-
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Map;
 
-import static com.hankcs.hanlp.classification.utilities.Predefine.logger;
+import static com.hankcs.hanlp.classification.utilities.io.ConsoleLogger.logger;
 
 
 /**

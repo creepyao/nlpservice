@@ -8,6 +8,7 @@
         <result property="userid" column="userid"/>
         <result property="robotid" column="robotid"/>
         <result property="corpus" column="corpus"/>
+        <result property="insert_time" column="insert_time"/>
     </resultMap>
     <select id="getById" parameterType="java.lang.String" resultMap="RuleResult">
         select * from rule where ruleid = #{id}
@@ -16,8 +17,8 @@
         <selectKey keyProperty="ruleid" resultType="String" order="BEFORE">
             SELECT UUID()
         </selectKey>
-        insert into rule(ruleid,userid,robotid,rulename,corpus) values
-        (#{ruleid},#{userid},#{robotid},#{rulename},#{corpus})
+        insert into rule(ruleid,userid,robotid,rulename,corpus,insert_time) values
+        (#{ruleid},#{userid},#{robotid},#{rulename},#{corpus},#{insert_time})
     </insert>
     <select id="getByUserAndRobot"  resultMap="RuleResult">
         select * from rule where userid = #{userid} and robotid = #{robotid}

@@ -36,5 +36,26 @@
     <jaxws:endpoint id="nlpClassifier" implementor="#nlpClassifierImpl" address="/nlpClassifier" />
 
 
+    <!--Quartz 配置-->
+    <bean id="TrainStoryJob" class="com.yao.job.TrainStoryJob"/>
+    <bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="TrainStoryJob"></property>
+        <property name="targetMethod" value="runTask"></property>
+        <property name="concurrent" value="false"></property>
+        <!-- concurrent : false表示等上一个任务执行完后再开启新的任务 -->
+    </bean>
 
+    <bean id="trainStoryJobTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="jobDetail"></property>
+        <property name="cronExpression" value="0 */10 * * * ?"></property>
+        <property name="startDelay" value="3000"></property>
+    </bean>
+
+    <bean id="schedulerFactoryBean"  class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="trainStoryJobTrigger"/>
+            </list>
+        </property>
+    </bean>
 </beans>
